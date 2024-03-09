@@ -43,24 +43,25 @@ header {
             
 
         }
+
     
   .button1 {
-    margin-top: 430px;
+    margin-top: 180px;
     padding: 20px;
-    margin-left: 150px;  
+    margin-left: -480px;  
     font-weight: bold;
     background-color: rgb(62, 54, 110);
     position: absolute;
     color: #fff;
     border:none;
     border-radius:15px;
-  
+    cursor: pointer;
     letter-spacing: 3px; /* Add letter spacing */
   }
   .button2 {
-    margin-top: 430px;
+    margin-top: 180px;
     padding: 20px;
-    margin-left: 350px;  
+    margin-left: -250px;  
     font-weight: bold;
     background-color: rgb(47, 139, 145, 1.0);
     position: absolute;
@@ -68,10 +69,18 @@ header {
     border:none;
     border-radius: 15px;
     letter-spacing: 3px; /* Add letter spacing */
+    cursor: pointer;
   }
+ .button1:hover {
+ color:rgb(62, 54, 110, 1.0);
+ background-color: white;
+ 
+        }  
+.button2:hover {
+    color:  rgb(47, 139, 145, 1.0);
+    background-color:white;
 
-           
-
+} 
 img[src="usnbygget.jpg"]{
     width: 700px;
     height: auto;
@@ -137,7 +146,7 @@ img[src="Students.avif"]{
     font-family: sans-serif;
 }
 
-.navigation a:hover {
+.navigation a:hover  {
     color: #666;
 }
 
