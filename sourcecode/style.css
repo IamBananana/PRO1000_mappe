@@ -43,6 +43,34 @@ header {
             
 
         }
+    
+  .button1 {
+    margin-top: 430px;
+    padding: 20px;
+    margin-left: 150px;  
+    font-weight: bold;
+    background-color: rgb(62, 54, 110);
+    position: absolute;
+    color: #fff;
+    border:none;
+    border-radius:15px;
+  
+    letter-spacing: 3px; /* Add letter spacing */
+  }
+  .button2 {
+    margin-top: 430px;
+    padding: 20px;
+    margin-left: 350px;  
+    font-weight: bold;
+    background-color: rgb(47, 139, 145, 1.0);
+    position: absolute;
+    color: #fff;
+    border:none;
+    border-radius: 15px;
+    letter-spacing: 3px; /* Add letter spacing */
+  }
+
+           
 
 img[src="usnbygget.jpg"]{
     width: 700px;
@@ -54,6 +82,10 @@ img[src="usnbygget.jpg"]{
     
 
 }
+
+
+
+
 
 .logo {
     position: absolute;
