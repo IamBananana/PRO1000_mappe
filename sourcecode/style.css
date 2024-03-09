@@ -93,7 +93,28 @@ img[src="usnbygget.jpg"]{
 }
 
 
-
+ .blurry-circle {
+            position: absolute;
+            margin-left: -250px;
+            margin-top: -300px;
+            width: 300px;
+            height: 400px;
+            background-color:  rgb(47, 139, 145, 1.0); /* Semi-transparent white */
+            border-radius: 50%;
+            filter: blur(70px); /* Apply a 20px blur effect */
+            z-index: -1; /* Move the circle behind other content */
+        }
+        .blurry-circlee {
+            position: absolute;
+            margin-left: 1100px;
+            margin-top: 500px;
+            width: 500px;
+            height: 700px;
+            background-color:  rgb(47, 139, 145, 1.0); /* Semi-transparent white */
+            border-radius: 50%;
+            filter: blur(70px); /* Apply a 20px blur effect */
+            z-index: -1; /* Move the circle behind other content */
+        }
 
 
 .logo {
